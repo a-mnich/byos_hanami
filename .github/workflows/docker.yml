@@ -33,7 +33,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           #images: ghcr.io/usetrmnl/terminus
-          images: ghcr.io/a-mnich/byos_hanami:latest
+          images: ghcr.io/a-mnich/byos_hanami
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
             type=semver,pattern={{version}}
